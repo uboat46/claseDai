@@ -42,7 +42,7 @@ namespace Inventario {
         
         #line 5 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Grid tb_cantidad;
+        internal System.Windows.Controls.Grid Main;
         
         #line default
         #line hidden
@@ -138,7 +138,7 @@ namespace Inventario {
         
         #line 21 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.TextBox tb_cantidad1;
+        internal System.Windows.Controls.TextBox tb_cantidad;
         
         #line default
         #line hidden
@@ -222,7 +222,7 @@ namespace Inventario {
             switch (connectionId)
             {
             case 1:
-            this.tb_cantidad = ((System.Windows.Controls.Grid)(target));
+            this.Main = ((System.Windows.Controls.Grid)(target));
             return;
             case 2:
             this.lb_fechaDeEntrada = ((System.Windows.Controls.Label)(target));
@@ -258,7 +258,7 @@ namespace Inventario {
             this.lb_precio = ((System.Windows.Controls.Label)(target));
             return;
             case 13:
-            this.tb_cantidad1 = ((System.Windows.Controls.TextBox)(target));
+            this.tb_cantidad = ((System.Windows.Controls.TextBox)(target));
             return;
             case 14:
             this.cb_articulo = ((System.Windows.Controls.ComboBox)(target));
