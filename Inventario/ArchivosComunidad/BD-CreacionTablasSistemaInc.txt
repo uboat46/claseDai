@@ -1,0 +1,28 @@
+--   Definición de la base de datos 
+
+--	ESQUEMA RELACIONAL DE LA BASE DE DATOS:
+--
+--	usuario(IdUser(PK), userLogin, userPwd, nombreUser, activo, esAdmon, reportes)
+--	articulo(idArticulo(PK), nombreArt, localizacion, existencia, costoProm )
+--	
+	
+--
+--	DEFINICIÓN DE TABLAS
+
+create table usuario
+       (idUser		smallint  not null primary key,
+	userLogin	char(30),
+	userPwd		char(8),
+	nombreUser	char(30),
+	activo		bit,
+	esAdmon		bit,
+	reportes	bit);
+
+create table articulo
+	(idArticulo	smallint  not null primary key,
+	nombreArt	char(50),
+	localizacion	char(50),
+	existencia	smallint,
+	costoProm	real);
+
+
