@@ -1,1 +1,2 @@
 E:\claseDai\Inventario\Inventario\bin\Debug\Inventario.exe.config
+C:\Users\sdist\Desktop\claseDai\Inventario\Inventario\bin\Debug\Inventario.exe.config
