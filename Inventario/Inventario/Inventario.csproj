@@ -65,6 +65,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Conexion.cs" />
     <Compile Include="InventarioSalida1.xaml.cs">
       <DependentUpon>InventarioSalida1.xaml</DependentUpon>
     </Compile>
