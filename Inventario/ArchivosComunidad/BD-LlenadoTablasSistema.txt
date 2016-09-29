@@ -1,0 +1,56 @@
+-- Tuplas de la tabla usuario
+
+insert into usuario values(1,'login1','pwd1','nombre1',1,0,1);
+insert into usuario values(2,'login2','pwd2','nombre2',0,0,1);
+insert into usuario values(3,'login3','pwd3','nombre3',0,1,1);
+insert into usuario values(4,'login4','pwd4','nombre4',0,0,1);
+insert into usuario values(5,'login5','pwd5','nombre5',0,0,1);
+insert into usuario values(6,'login6','pwd6','nombre6',0,0,0);
+insert into usuario values(7,'login7','pwd7','nombre7',0,1,1);
+insert into usuario values(8,'login8','pwd8','nombre8',0,1,0);
+insert into usuario values(9,'login9','pwd9','nombre9',0,0,1);
+insert into usuario values(10,'login10','pwd10','nombre10',0,0,1);
+
+-- Tuplas de la tabla articulo
+
+insert into articulo values (1,'art1','loc1',955,552.92);
+insert into articulo values (2,'art2','loc2',755,652.92);
+insert into articulo values (3,'art3','loc3',655,752.92);
+insert into articulo values (4,'art4','loc4',555,732.92);
+insert into articulo values (5,'art5','loc5',455,532.92);
+insert into articulo values (6,'art6','loc6',355,542.92);
+
+
+-- Tuplas de la tabla entrada
+
+insert into entrada values (1,'01-8-2014','08-8-2014','prov1',123,'08-9-2014',1);
+insert into entrada values (2,'02-8-2014','18-8-2014','prov2',124,'09-9-2014',1);
+insert into entrada values (3,'03-8-2014','28-8-2014','prov3',125,'07-9-2014',2);
+insert into entrada values (4,'04-8-2014','29-8-2014','prov1',126,'06-9-2014',3);
+insert into entrada values (5,'05-8-2014','30-8-2014','prov1',127,'04-9-2014',1);
+
+-- Tuplas de la tabla salida
+
+insert into salida values (1,'21-10-2014','26-10-2014','res1',1);
+insert into salida values (2,'23-10-2014','26-10-2014','res2',2);
+insert into salida values (3,'24-10-2014','26-10-2014','res3',3);
+insert into salida values (4,'25-10-2014','26-10-2014','res1',4);
+insert into salida values (5,'26-10-2014','26-10-2014','res1',1);
+
+
+
+-- Tuplas de la tabla entArticulo
+
+insert into entArticulo values (1,1,1,20,2.3);
+insert into entArticulo values (2,2,2,22,22.3);
+insert into entArticulo values (3,3,3,28,21.3);
+insert into entArticulo values (4,4,4,27,23.3);
+insert into entArticulo values (5,5,5,21,12.3);
+
+
+-- Tuplas de la tabla salArticulo
+
+insert into salArticulo values (1,1,1,5);
+insert into salArticulo values (2,2,2,3);
+insert into salArticulo values (3,3,3,4);
+insert into salArticulo values (4,4,4,7);
