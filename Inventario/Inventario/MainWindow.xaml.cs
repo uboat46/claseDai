@@ -24,5 +24,16 @@ namespace Inventario
         {
             InitializeComponent();
         }
+
+        private void cb_articulo_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void Main_Loaded(object sender, RoutedEventArgs e)
+        {
+            Conexion con = new Conexion();
+            con.llenarComboUsers(cb_idUser1);
+        }
     }
 }

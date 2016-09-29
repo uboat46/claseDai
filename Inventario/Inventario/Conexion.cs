@@ -24,32 +24,11 @@ namespace Inventario
             return cnn;
         }
 
-        public void llenarComboArticulos(ComboBox cb)
-        {
-            try
-            {
-                cmd = new SqlCommand("SELECT articulos.idArticulo FROM articulos", Connect());
-                dr = cmd.ExecuteReader();
-
-                while (dr.Read())
-                {
-                    cb.Items.Add(dr["nombrePrograma"].ToString());
-                }
-                cb.SelectedIndex = 0;
-                dr.Close();
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-                MessageBox.Show(e.Message);
-            }
-        }
-
         public void llenarComboUsers(ComboBox cb)
         {
             try
             {
-                cmd = new SqlCommand("SELECT users.id FROM users", Connect());
+                cmd = new SqlCommand("SELECT usuario.idUser FROM usuario", Connect());
                 dr = cmd.ExecuteReader();
 
                 while (dr.Read())
@@ -66,6 +45,4 @@ namespace Inventario
             }
         }
     }
-
-
 }

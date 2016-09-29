@@ -223,6 +223,12 @@ namespace Inventario {
             {
             case 1:
             this.Main = ((System.Windows.Controls.Grid)(target));
+            
+            #line 5 "..\..\MainWindow.xaml"
+            this.Main.Loaded += new System.Windows.RoutedEventHandler(this.Main_Loaded);
+            
+            #line default
+            #line hidden
             return;
             case 2:
             this.lb_fechaDeEntrada = ((System.Windows.Controls.Label)(target));
@@ -262,6 +268,12 @@ namespace Inventario {
             return;
             case 14:
             this.cb_articulo = ((System.Windows.Controls.ComboBox)(target));
+            
+            #line 22 "..\..\MainWindow.xaml"
+            this.cb_articulo.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.cb_articulo_SelectionChanged);
+            
+            #line default
+            #line hidden
             return;
             case 15:
             this.tb_precio = ((System.Windows.Controls.TextBox)(target));
