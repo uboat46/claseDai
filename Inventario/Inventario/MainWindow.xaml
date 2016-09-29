@@ -2,22 +2,29 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
+    <Grid x:Name="tb_cantidad">
         <Grid.RowDefinitions>
             <RowDefinition Height="123*"/>
             <RowDefinition Height="197*"/>
         </Grid.RowDefinitions>
-        <Label Content="Fecha de entrada:" HorizontalAlignment="Left" Margin="48,31,0,0" VerticalAlignment="Top"/>
-        <DatePicker HorizontalAlignment="Left" Margin="157,33,0,0" VerticalAlignment="Top"/>
-        <Label Content="Fecha factura:" HorizontalAlignment="Left" Margin="307,31,0,0" VerticalAlignment="Top" Width="82"/>
-        <Label Content="Folio factura:" HorizontalAlignment="Left" Margin="307,57,0,0" VerticalAlignment="Top" Width="82" RenderTransformOrigin="0.489,0.605"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="389,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="388,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119"/>
-        <Label Content="Nombre del proveedor:" HorizontalAlignment="Left" Margin="48,87,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="48,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="237" Grid.RowSpan="2"/>
-        <Label Content="Articulo:" HorizontalAlignment="Left" Margin="48,36,0,0" VerticalAlignment="Top" Grid.Row="1"/>
-        <Label Content="Cantidad:" HorizontalAlignment="Left" Margin="48,67,0,0" VerticalAlignment="Top" Grid.Row="1"/>
-        <Label Content="Precio:" HorizontalAlignment="Left" Margin="48,93,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+        <Label x:Name="lb_fechaDeEntrada" Content="Fecha de entrada:" HorizontalAlignment="Left" Margin="48,31,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="dp_fechaDeEntrada" HorizontalAlignment="Left" Margin="157,33,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lb_fechaFactura" Content="Fecha factura:" HorizontalAlignment="Left" Margin="307,31,0,0" VerticalAlignment="Top" Width="82"/>
+        <Label x:Name="lb_fechaFactura1" Content="Folio factura:" HorizontalAlignment="Left" Margin="307,57,0,0" VerticalAlignment="Top" Width="82" RenderTransformOrigin="0.489,0.605"/>
+        <TextBox x:Name="tx_fechaFactura" HorizontalAlignment="Left" Height="23" Margin="389,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119"/>
+        <TextBox x:Name="tb_folioFactura" HorizontalAlignment="Left" Height="23" Margin="388,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119"/>
+        <Label x:Name="lb_nombreDelProveedor" Content="Nombre del proveedor:" HorizontalAlignment="Left" Margin="48,87,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tb_nombreDelProveedor" HorizontalAlignment="Left" Height="23" Margin="48,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="237" Grid.RowSpan="2"/>
+        <Label x:Name="lb_articulo" Content="Articulo:" HorizontalAlignment="Left" Margin="48,36,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+        <Label x:Name="lb_cantidad" Content="Cantidad:" HorizontalAlignment="Left" Margin="48,67,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+        <Label x:Name="lb_precio" Content="Precio:" HorizontalAlignment="Left" Margin="48,93,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+        <TextBox x:Name="tb_cantidad1" HorizontalAlignment="Left" Height="23" Margin="128,70,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="cb_articulo" HorizontalAlignment="Left" Margin="128,40,0,0" Grid.Row="1" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tb_precio" HorizontalAlignment="Left" Height="23" Margin="128,98,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="cb_idUser" Content="IdUser" HorizontalAlignment="Left" Margin="323,22,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+        <ComboBox x:Name="cb_idUser1" HorizontalAlignment="Left" Margin="372,26,0,0" Grid.Row="1" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="bt_agregar" Content="Agregar" HorizontalAlignment="Left" Margin="340,93,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="bt_salidaDeArticulos" Content="Salida de Articulos" HorizontalAlignment="Left" Margin="340,130,0,0" Grid.Row="1" VerticalAlignment="Top" Width="135"/>
 
     </Grid>
 </Window>
