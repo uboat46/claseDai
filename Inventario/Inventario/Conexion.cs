@@ -42,6 +42,7 @@ namespace Inventario
             {
                 Console.WriteLine(e.Message);
                 MessageBox.Show(e.Message);
+                //lol
             }
         }
     }
