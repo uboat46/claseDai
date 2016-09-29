@@ -283,12 +283,6 @@ namespace Inventario {
             return;
             case 17:
             this.cb_idUser1 = ((System.Windows.Controls.ComboBox)(target));
-            
-            #line 25 "..\..\MainWindow.xaml"
-            this.cb_idUser1.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.cb_idUser1_SelectionChanged);
-            
-            #line default
-            #line hidden
             return;
             case 18:
             this.bt_agregar = ((System.Windows.Controls.Button)(target));
