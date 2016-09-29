@@ -27,13 +27,18 @@ namespace Inventario
 
         private void cb_articulo_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-
+            
         }
 
         private void Main_Loaded(object sender, RoutedEventArgs e)
         {
-            Conexion con = new Conexion();
+            Class1 con = new Class1();
             con.llenarComboUsers(cb_idUser1);
+        }
+
+        private void cb_idUser1_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }
