@@ -3,6 +3,20 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="123*"/>
+            <RowDefinition Height="197*"/>
+        </Grid.RowDefinitions>
+        <Label Content="Fecha de entrada:" HorizontalAlignment="Left" Margin="48,31,0,0" VerticalAlignment="Top"/>
+        <DatePicker HorizontalAlignment="Left" Margin="157,33,0,0" VerticalAlignment="Top"/>
+        <Label Content="Fecha factura:" HorizontalAlignment="Left" Margin="307,31,0,0" VerticalAlignment="Top" Width="82"/>
+        <Label Content="Folio factura:" HorizontalAlignment="Left" Margin="307,57,0,0" VerticalAlignment="Top" Width="82" RenderTransformOrigin="0.489,0.605"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="389,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="388,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119"/>
+        <Label Content="Nombre del proveedor:" HorizontalAlignment="Left" Margin="48,87,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="48,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="237" Grid.RowSpan="2"/>
+        <Label Content="Articulo:" HorizontalAlignment="Left" Margin="48,36,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+        <Label Content="Cantidad:" HorizontalAlignment="Left" Margin="48,67,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+
     </Grid>
 </Window>
