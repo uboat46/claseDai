@@ -9,8 +9,9 @@ using System.Windows.Controls;
 
 namespace Inventario
 {
-    class Conexion
+    class Class1
     {
+
         SqlConnection cnn;
         SqlCommand cmd;
         SqlDataReader dr;
