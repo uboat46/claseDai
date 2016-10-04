@@ -1,2 +1,17 @@
 E:\claseDai\Inventario\Inventario\bin\Debug\Inventario.exe.config
 C:\Users\sdist\Desktop\claseDai\Inventario\Inventario\bin\Debug\Inventario.exe.config
+C:\Users\ESOTOMAYG\Desktop\claseDai\Inventario\Inventario\bin\Debug\Inventario.exe.config
+C:\Users\ESOTOMAYG\Desktop\claseDai\Inventario\Inventario\bin\Debug\Inventario.exe
+C:\Users\ESOTOMAYG\Desktop\claseDai\Inventario\Inventario\bin\Debug\Inventario.pdb
+C:\Users\ESOTOMAYG\Desktop\claseDai\Inventario\Inventario\obj\Debug\Inventario.csprojResolveAssemblyReference.cache
+C:\Users\ESOTOMAYG\Desktop\claseDai\Inventario\Inventario\obj\Debug\InventarioSalida1.baml
+C:\Users\ESOTOMAYG\Desktop\claseDai\Inventario\Inventario\obj\Debug\MainWindow.baml
+C:\Users\ESOTOMAYG\Desktop\claseDai\Inventario\Inventario\obj\Debug\InventarioSalida1.g.cs
+C:\Users\ESOTOMAYG\Desktop\claseDai\Inventario\Inventario\obj\Debug\MainWindow.g.cs
+C:\Users\ESOTOMAYG\Desktop\claseDai\Inventario\Inventario\obj\Debug\App.g.cs
+C:\Users\ESOTOMAYG\Desktop\claseDai\Inventario\Inventario\obj\Debug\Inventario_MarkupCompile.cache
+C:\Users\ESOTOMAYG\Desktop\claseDai\Inventario\Inventario\obj\Debug\Inventario.g.resources
+C:\Users\ESOTOMAYG\Desktop\claseDai\Inventario\Inventario\obj\Debug\Inventario.Properties.Resources.resources
+C:\Users\ESOTOMAYG\Desktop\claseDai\Inventario\Inventario\obj\Debug\Inventario.csproj.GenerateResource.Cache
+C:\Users\ESOTOMAYG\Desktop\claseDai\Inventario\Inventario\obj\Debug\Inventario.exe
+C:\Users\ESOTOMAYG\Desktop\claseDai\Inventario\Inventario\obj\Debug\Inventario.pdb
