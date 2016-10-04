@@ -34,10 +34,20 @@ namespace Inventario
         {
             Class1 con = new Class1();
             con.llenarComboUsers(cb_idUser1);
+            con.llenarComboArticulos(cb_articulo);
         }
 
         private void cb_idUser1_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+
+        }
+
+        private void bt_agregar_Click(object sender, RoutedEventArgs e)
+        {
+            Class1 con = new Class1();
+            con.agregaEntrada(dp_fechaDeEntrada, tb_nombreDelProveedor, tb_folioFactura, dp_fechaFactura, cb_idUser1);
+            con.agregaEntradaArticulo(con.obtenId(tb_folioFactura), cb_articulo, tb_cantidad, tb_precio);
+            con.updateCantidad(con.obtenCant(cb_articulo), cb_articulo);
 
         }
     }

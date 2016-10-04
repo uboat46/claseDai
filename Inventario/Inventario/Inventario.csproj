@@ -67,6 +67,12 @@
     </Compile>
     <Compile Include="Class1.cs" />
     <Compile Include="Conexion.cs" />
+    <Compile Include="Implementacion.cs" />
+    <Compile Include="InventarioDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InventarioDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="InventarioSalida1.xaml.cs">
       <DependentUpon>InventarioSalida1.xaml</DependentUpon>
     </Compile>
@@ -93,6 +99,17 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="InventarioDataSet.xsc">
+      <DependentUpon>InventarioDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="InventarioDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>InventarioDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="InventarioDataSet.xss">
+      <DependentUpon>InventarioDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
