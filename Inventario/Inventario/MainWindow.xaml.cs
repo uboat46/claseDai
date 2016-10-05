@@ -46,9 +46,16 @@ namespace Inventario
         {
             Class1 con = new Class1();
             con.agregaEntrada(dp_fechaDeEntrada, tb_nombreDelProveedor, tb_folioFactura, dp_fechaFactura, cb_idUser1);
-            con.agregaEntradaArticulo(con.obtenId(tb_folioFactura), cb_articulo, tb_cantidad, tb_precio);
-            con.updateCantidad(con.obtenCant(cb_articulo), cb_articulo);
+            con.agregaEntradaArticulo(con.obtenIdEntrada(tb_folioFactura), cb_articulo, tb_cantidad, tb_precio);
+            con.updateCantidad(con.obtenCant(cb_articulo), cb_articulo,int.Parse(tb_cantidad.Text));
 
+        }
+
+        private void bt_salidaDeArticulos_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            InventarioSalida1 frm1 = new InventarioSalida1(this, int.Parse(cb_idUser1.SelectedValue.ToString()));
+            frm1.Show();
         }
     }
 }
