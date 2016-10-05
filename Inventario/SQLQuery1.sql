@@ -36,7 +36,7 @@ CREATE TABLE entrada
 	idUser int);
 
 CREATE TABLE salida
-	(idSalida smallint NOT NULL IDENTITY(1,1) PRIMARY KEY,
+	(idSalida int NOT NULL IDENTITY(1,1) PRIMARY KEY,
 	fechaRegistro date,
 	fechaSalida date,
 	responsable char(50),
